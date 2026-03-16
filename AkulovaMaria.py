@@ -32,7 +32,7 @@ while try_left > 0:
     print(f'Попыток осталось: {try_left}')
     later = input('Буква: ').lower()
 
-# -------------- проверки --------------
+
     if len(later) != 1 or not later.isalpha():
         print('Нужна одна буква')
         continue
